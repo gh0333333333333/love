@@ -58,7 +58,7 @@ const RomanticExperience: React.FC = () => {
         
         {/* Time indicator */}
         <div className="time-indicator">
-          {timeOfDay === 'day' ? <Sun className="sun-icon" size={32} /> : <Moon className="moon-icon" size={32} />}
+          {timeOfDay === 'day' ? <Sun className="sun-icon\" size={32} /> : <Moon className="moon-icon" size={32} />}
         </div>
       </div>
 
