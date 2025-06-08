@@ -1,10 +1,10 @@
 import React from 'react';
-import RotatingHeart from './components/RotatingHeart';
+import RomanticExperience from './components/RomanticExperience';
 
 function App() {
   return (
-    <div className="min-h-screen bg-pink-200">
-      <RotatingHeart />
+    <div className="min-h-screen">
+      <RomanticExperience />
     </div>
   );
 }
